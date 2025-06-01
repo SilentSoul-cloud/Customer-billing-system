@@ -38,6 +38,8 @@ void clear(){    ///clears the input buffer
     while((c=getchar())!='\n' && c!=EOF);
 }
 
+void last_action(const char *action);
+
 void add_customer(){ ///add customer data
 
     if(count<MAX_CUSTOMER){
